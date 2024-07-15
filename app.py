@@ -34,7 +34,7 @@ class WeatherApp:
     def update_weather(self):
         try:
             open_weather_endpoint = "https://api.openweathermap.org/data/2.5/forecast"
-            api_key = "83f0e1fbb92f655dd0170e27b3c1232c"
+            api_key = "83f0e1fbb92f65532c"
 
             weather_params = {
                 "lat": 6.52437,
